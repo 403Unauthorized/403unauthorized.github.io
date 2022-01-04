@@ -1,0 +1,130 @@
+# Site Information
+site_name: Eng Learning
+site_description: Eng Learning 是我用来整合知识的一个站点，主要面向编程知识。
+site_author: Torres Lei
+site_url: https://403unauthorized.github.io
+
+# Repository
+repo_name: '403Unauthorized/Eng-Learning'
+repo_url: https://github.com/403Unauthorized/leetcode
+
+# Copyright
+copyright: 'Copyright &copy; 2021 - 2022 Eng Learning by Torres'
+
+# Contents
+nav:
+  - 简介:
+    - Getting Started: index.md
+    - 关于我: about.md
+  - Java:
+    - Java简介: java/index.md
+    - Synchronized 学习笔记: java/synchronized.md
+    - Volatile 学习笔记: java/volatile.md
+    - JVM:
+      - Java 垃圾收集器: java/garbage-collector.md
+      - JVM 内存区域学习笔记: java/jvm-breakdown.md
+    - Spring:
+      - Spring Cloud Ribbon: java/spring-cloud-ribbon.md
+  - 云原生:
+    - 云原生简介: cloud/index.md
+    - Golang:
+      - Golang基础知识: cloud/golang-basics.md
+    - Kubernetes:
+      - Kubernetes on CentOS: cloud/kubernetes-on-centos.md
+      - 在CentOS上安装K8S: cloud/kubernetes-installation-on-centos.md
+  - 算法:
+    - 算法系列: algo/index.md
+    - LeetCode:
+      - Daily:
+        - 2022/01/04 - 913. 猫和老鼠: algo/leetcode/daily/2022-01-04.md
+
+
+# Plugins
+plugins:
+  - search
+
+# Theme
+theme:
+  name: material
+  language: zh
+  custom_dir: 'material'
+  static_templates:
+    - 404.html
+  include_search_page: false
+  search_index_only: true
+  palette:
+    - sheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/github-alt
+    logo: material/book-education-outline
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  favicon: 'favicon.ico'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
