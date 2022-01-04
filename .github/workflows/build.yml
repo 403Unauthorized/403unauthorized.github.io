@@ -27,6 +27,7 @@ jobs:
       - name: Page Build
         run: |
           chmod +x ./scripts/build.sh && ./scripts/build.sh
+          mkdocs build -v
       - name: Gulp minify
         run: npx gulp minify
       - name: Deploy to gh-pages
