@@ -11,7 +11,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/403Unauthorized/Eng-Learning.git"
+      "url": "git+https://github.com/403Unauthorized/403unauthorized.github.io.git"
     },
     "keywords": [
       "Engineering",
@@ -21,14 +21,14 @@
     "author": "Torres Lei",
     "license": "UNLICENSED",
     "bugs": {
-      "url": "https://github.com/403Unauthorized/Eng-Learning/issues"
+      "url": "https://github.com/403Unauthorized/403unauthorized.github.io/issues"
     },
-    "homepage": "https://github.com/403Unauthorized/Eng-Learning#readme",
+    "homepage": "https://github.com/403Unauthorized/403unauthorized.github.io#readme",
     "dependencies": {
       "cssnano": "^4.1.10",
       "gulp": "^4.0.0",
       "gulp-htmlmin": "^5.0.1",
-      "gulp-postcss": "^8.0.0",
+      "gulp-postcss": "^9.0.1",
       "gulp-purifycss": "^0.2.0"
     }
   }
