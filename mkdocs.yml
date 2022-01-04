@@ -5,8 +5,8 @@ site_author: Torres Lei
 site_url: https://403unauthorized.github.io
 
 # Repository
-repo_name: '403Unauthorized/Eng-Learning'
-repo_url: https://github.com/403Unauthorized/leetcode
+repo_name: 'Programming Space'
+repo_url: https://github.com/403Unauthorized/403unauthorized.github.io
 
 # Copyright
 copyright: 'Copyright &copy; 2021 - 2022 Eng Learning by Torres'
@@ -47,7 +47,7 @@ plugins:
 theme:
   name: material
   language: zh
-  custom_dir: 'material'
+  custom_dir: 'mkdocs-material/material'
   static_templates:
     - 404.html
   include_search_page: false
