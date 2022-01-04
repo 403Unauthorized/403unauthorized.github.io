@@ -34,7 +34,7 @@ public void test() {
 
 我们利用工具查看生成的 class 文件，生成的 class 文件如下：
 
-![Synchronized class 文件](./images/java_syn_1.png)
+![Synchronized class 文件](./images/synchronized/java_syn_1.png)
 
 从以上 class 文件我们可以看出，同步代码块是通过 **monitorenter** 和 **monitorexit** 来实现的，同步方法是依靠方法修饰符中的 **ACC_SYNCHRONIZED** 实现。
 
@@ -69,7 +69,7 @@ public void test() {
 
 对象在堆内存中的布局分为三块区域：对象头、实例数据和对其填充。
 
-![Java对象头](./images/java_syn_2.png)
+![Java对象头](./images/synchronized/java_syn_2.png)
 
 - 实例变量：存放类和父类的属性信息，如果是数组，还包括数组的长度，这部分内存为4字节。
 - 填充数据：JVM 要求对象的其实地址必须为8字节的整数倍，所以有可能数据需要填充（非必须）。
@@ -91,7 +91,7 @@ Java 的对象头是实现 synchronized 的锁对象的基础。一般情况，s
 
 状态变化（32位虚拟机）：
 
-![锁的状态变化](./images/java_syn_3.png)
+![锁的状态变化](./images/synchronized/java_syn_3.png)
 
 其中轻量级锁和偏向锁时在 Java 6 对 synchronized 锁进行优化后新增的。
 
@@ -122,7 +122,7 @@ ObjectMonitor() {
 
 ObjectMonitor 中有两个队列 —— _WaitSet, _EntryList（当多个线程同时访问一段同步代码时，首先会进入 _EntryList 集合，当线程拥有对象的 monitor 后，ObjectMonitor 会将 _owner 变量设置为当前线程，并将计数器 _count 加1，如果该线程调用了 wait() 方法，它将会释放当前持有的 monitor， _owner 将恢复为 NULL，同时该线程会进入 _WaitSet 等待被唤醒）。它们是用来保存 ObjectWaiter 对象列表（每个等待的线程都会被封装为 ObjectWaiter 对象），底层实现原理不再叙述(C++实现的，我也没看过)。我们可以用一张图来简单概述它的数据结构。
 
-![Monitor数据结构](./images/java_syn_4.png)
+![Monitor数据结构](./images/synchronized/java_syn_4.png)
 
 其中：
 

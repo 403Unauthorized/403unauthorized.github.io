@@ -2,7 +2,7 @@
 
 ## Java 堆空间的基本结构
 
-![](./images/java_gc_1.png)
+![](./images/gc/java_gc_1.png)
 
 上图的 Eden 区和 Survivor From 区、Survivor To 区都属于新生代，Tenured 区属于老年代，在大部分情况，对象首先会在 Eden 区域分配，在第一次新生代垃圾回收（Minor GC）后，如果对象还存活，则该对象会进入 Survivor To 区，并且年龄会加1（第一次从 Eden 到 Survivor 区时年龄是1），当年龄到达一定程度时（默认为 15 岁，但是不一定必须到达 15 岁才会进入老年代区），对象会被晋升到老年代中，对象晋升到老年代的年龄阀值，可以通过设置参数 `-XX:MaxTenuringThreshold` 来控制。经过这次 GC 之后，Eden 区 和 From 区已经被清空，这时候，From 和 To 会交换他们的角色，也就是说此时新的 Survivor To 区就是 GC 之前的 Survivor From 区，新的 Survivor From 区就是 GC 之前的 Survivor To 区。Minor GC 会一直重复这个过程，直到 Survivor To 区被填满，To 区被填满之后，会将所有对象移动到老年代中。
 
@@ -21,7 +21,7 @@
 - **效率问题**
 - **空间浪费问题（标记清除后会产生大量不连续的碎片，导致大量空间无法使用）**
 
-![标记-清除算法](./images/java_gc_3.png)
+![标记-清除算法](./images/gc/java_gc_3.png)
 
 ### 复制算法
 
@@ -29,13 +29,13 @@
 
 这样也会有一定的问题，就好比我们买了200平的房子，却只能使用100平，这就造成了使用空间的缩小。
 
-![复制算法](./images/java_gc_3.png)
+![复制算法](./images/gc/java_gc_3.png)
 
 ### 标记 - 整理算法
 
 针对老年代特点特出的一种标记算法，过程与“标记 - 清除”算法一样，但是标记之后不是直接对可回收对象进行回收，而是让所有存活对象向一端移动，然后清理掉存活对象端边界以外的内存。
 
-![标记-整理算法](./images/java_gc_4.png)
+![标记-整理算法](./images/gc/java_gc_4.png)
 
 ### 分代收集算法
 
@@ -51,7 +51,7 @@
 
 图片来源：[读书笔记—深入理解Java虚拟机1](https://yemengying.com/2015/11/12/读书笔记-深入理解Java虚拟机1/)
 
-![垃圾收集器](./images/java_gc_5.png)
+![垃圾收集器](./images/gc/java_gc_5.png)
 
 ### 新生代串行收集器 - Serial
 
@@ -104,7 +104,7 @@ CMS 收集器的整个工作流程为以下 4 个步骤：
 - **重新标记**：修正并发标记期间发生引用变化的那一部分对象。这一阶段的停顿时间会比初始标记阶段的时间稍长，但远远比并发标记的时间短。
 - **并发清除**：开启用户线程，同时 GC 线程对未标记的区域进行清除。
 
-![CMS垃圾收集器](./images/java_gc_6.png)
+![CMS垃圾收集器](./images/gc/java_gc_6.png)
 
 优点：并发，低停顿
 
@@ -130,7 +130,7 @@ CMS 收集器的整个工作流程为以下 4 个步骤：
 
 G1 (Garbage First) 的各代存储地址是不连续的，每一代都使用了 n 个不连续的大小相同的 region， 每个 region 占有一块连续的虚拟内存地址。
 
-![G1垃圾收集器](./images/java_gc_7.png)
+![G1垃圾收集器](./images/gc/java_gc_7.png)
 
 G1 跟踪各个 Region 里面的垃圾堆积的价值大小（回收所获得的空间大小以及回收所需时间的经验值），在后台维护一个优先列表，每次根据允许的收集时间，优先回收价值最大的 Region。
 
@@ -147,7 +147,7 @@ G1 跟踪各个 Region 里面的垃圾堆积的价值大小（回收所获得的
 - 最终标记（Final Marking）
 - 筛选回收（Live Data Counting and Evacuation）
 
-![G1垃圾收集器运行流程](./images/java_gc_8.png)
+![G1垃圾收集器运行流程](./images/gc/java_gc_8.png)
 
 #### 特点
 

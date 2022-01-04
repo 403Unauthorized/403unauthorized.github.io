@@ -21,7 +21,7 @@
 
 Java 7 和 Java 8 有两种不同的内存区域，我会将他们分开说明。
 
-![JVM Memory Area](./images/jvm-memory-area.png)
+![JVM Memory Area](./images/jvm/jvm-memory-area.png)
 
 JVM 内存区域中还有一个特殊的部分，叫做 Code Cache (代码缓存)，code cache 是 JVM 用来存储 native code。它是位于连续内存块块上的单个堆数据结构。
 
@@ -79,7 +79,7 @@ JVM 支持同一时间许多线程的执行。每个 JVM 线程都有它自己�
 
 在堆中，我们分出了两个部分：nursery (可称作年轻代 - young generation) 和 old space (老年代)。其中 nursery memory 又被氛围三个部分：一个 Eden memory 和两个 survivor memory (s0, s1)。绝大多数新创建的对象都被分配在 Eden Memory 中，当 Eden Memory 满了时，Minor GC 会将所有 eden memory 中的对象移到 survivor memory 中 (通常其中由很大一部分会被回收，未被回收的部分会移到 survivor 中)，并且 Minor GC 会检查 survivor 中的对象并将它们 (未被回收的部分) 移到另一个 survivor memory 中，所以在同一个时间点，会有一个 survivor memory 是空的。当对象在 survivor 中存活足够多的 cycle 后，会被移入 老年代内存中。
 
-![](./images/jvm-breakdown-2.png)
+![](./images/jvm/jvm-breakdown-2.png)
 
 > 需要注意的是，Java HotSpot VM 在启动的时候，会在地址空间预留整个 Heap，但除非需要，否则不会为其分配物理内存。
 
