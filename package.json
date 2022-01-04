@@ -25,6 +25,7 @@
     },
     "homepage": "https://github.com/403Unauthorized/Eng-Learning#readme",
     "dependencies": {
+      "cssnano": "^4.1.10",
       "gulp": "^4.0.0",
       "gulp-htmlmin": "^5.0.1",
       "gulp-postcss": "^8.0.0",
