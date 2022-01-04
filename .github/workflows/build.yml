@@ -21,6 +21,8 @@ jobs:
           python-version: 3.x
       - name: Install Python dependencies
         run: pip install -r requirements.txt
+      - name: Install Node.js dependencies
+        run: npm install .
       - run: pip install mkdocs-material 
       - name: Page Build
         run: |

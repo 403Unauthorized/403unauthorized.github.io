@@ -1,0 +1,33 @@
+{
+    "name": "eng-learning",
+    "version": "1.0.0",
+    "description": "Articles for Engineers",
+    "main": "index.js",
+    "directories": {
+      "doc": "docs"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/403Unauthorized/Eng-Learning.git"
+    },
+    "keywords": [
+      "Engineering",
+      "Backend",
+      "Cloud Computing"
+    ],
+    "author": "Torres Lei",
+    "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/403Unauthorized/Eng-Learning/issues"
+    },
+    "homepage": "https://github.com/403Unauthorized/Eng-Learning#readme",
+    "dependencies": {
+      "gulp": "^4.0.0",
+      "gulp-htmlmin": "^5.0.1",
+      "gulp-postcss": "^8.0.0",
+      "gulp-purifycss": "^0.2.0"
+    }
+  }
