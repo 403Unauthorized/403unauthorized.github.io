@@ -45,7 +45,7 @@ plugins:
 
 # Theme
 theme:
-  name: material
+  name: null
   language: zh
   custom_dir: 'mkdocs-material/material'
   static_templates:
