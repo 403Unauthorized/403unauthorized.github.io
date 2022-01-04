@@ -78,7 +78,7 @@ theme:
     - navigation.top
   icon:
     repo: fontawesome/brands/github-alt
-    # logo: material/book-education-outline
+    logo: material/book-education-outline
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
