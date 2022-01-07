@@ -1,6 +1,3 @@
 ---
-tags:
-  - Algorithm
-  - Palindrome
-  - Manacher
+
 ---

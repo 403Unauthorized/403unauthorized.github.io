@@ -1,9 +1,5 @@
 ---
-icon: material/emoticon-happy
-tags:
-  - Algorithm
-  - Leetcode
-  - Coding Inteview
+icon: material/notebook
 ---
 
 这里记录了我的刷题历程，我目前国内国外两个站点一起刷，两个站点的每日一题不一样。

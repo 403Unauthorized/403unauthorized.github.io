@@ -1,5 +1,3 @@
 ---
-tags:
-  - Algorithm
-  - Reservoir Sampling
+
 ---
