@@ -39,6 +39,8 @@ nav:
         - 2022/01/04 - 913. 猫和老鼠: algo/leetcode/daily/2022-01-04.md
         - 2022/01/07 - 1614. 括号的最大嵌套深度: algo/leetcode/daily/2022-01-07.md
         - 2022/01/07 - 382. Linked List Random Node: algo/leetcode/daily/2022-01-07-en.md
+      - String:
+        - 8. String to Integer (atoi): algo/leetcode/string/string-to-integer-atoi.md
     - 并查集: algo/union-find.md
     - Manacher算法: algo/manacher-palindrome.md
 
@@ -104,7 +106,7 @@ extra:
 
 # Extensions
 markdown_extensions:
-  - table
+  - tables
   - admonition
   - codehilite:
       guess_lang: false
