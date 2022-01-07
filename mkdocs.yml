@@ -104,11 +104,13 @@ extra:
 
 # Extensions
 markdown_extensions:
+  - table
   - admonition
   - codehilite:
       guess_lang: false
       linenums: true
   - def_list
+  - attr_list
   - footnotes
   - meta
   - toc:
