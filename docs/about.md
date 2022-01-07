@@ -13,7 +13,7 @@ Position (岗位): Software Engineer
 
     **Email (邮箱)**: yongqi.a.lei@gmail.com / torres.lei@outlook.com
 
-!!! info inline end "Job Searching Status - 求职状态"
+!!! info inline "Job Searching Status - 求职状态"
 
     **Location (工作地点)**: Tokyo
 
