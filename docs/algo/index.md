@@ -1,7 +1,7 @@
 ---
 icon: material/notebook
 tags:
-  - Algorithms
+  - Algorithm
   - Leetcode
   - Coding Inteview
 ---
