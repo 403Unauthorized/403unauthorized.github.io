@@ -1,5 +1,5 @@
 ---
-icon: material/notebook
+icon: material/emoticon-happy
 tags:
   - Algorithm
   - Leetcode
