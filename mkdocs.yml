@@ -37,6 +37,7 @@ nav:
     - LeetCode:
       - Daily:
         - 2022/01/04 - 913. 猫和老鼠: algo/leetcode/daily/2022-01-04.md
+        - 2022/01/07 - 1614. 括号的最大嵌套深度: algo/leetcode/daily/2022-01-07.md
 
 
 # Plugins
@@ -93,6 +94,9 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
   favicon: 'favicon.ico'
+
+extra:
+  disqus: programming-tech-sharing
 
 # Extensions
 markdown_extensions:
