@@ -1,4 +1,7 @@
-pagetime:
+---
+title: "Getting Started"
+disqus: ""
+---
 
 # Welcome to Eng Learning Site
 

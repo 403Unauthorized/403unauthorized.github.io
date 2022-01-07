@@ -13,7 +13,7 @@ Position (岗位): Software Engineer
 
     **Email (邮箱)**: yongqi.a.lei@gmail.com / torres.lei@outlook.com
 
-!!! info inline "Job Searching Status - 求职状态"
+!!! info "Job Searching Status - 求职状态"
 
     **Location (工作地点)**: Tokyo
 
@@ -21,26 +21,26 @@ Position (岗位): Software Engineer
 
     **Current Status (目前状态)**: On-job (在职)
 
-## Skills - 专业技能
+## :octicons-paste: Skills - 专业技能
 
 === "Tech"
 
-    | Skills (技能)      | Familarity (熟练度)                         |
-    | :----------: | -----------------------------------: |
-    | Data Structure and Algorithms       | :material-battery-70: Skillful (熟悉)  |
-    | Java       | :material-battery-80: Advanced (精通)  |
-    | Spring Framework (Spring Boot, Spring Cloud)      | :material-battery-70: Skillful (熟练应用) |
-    | Kubernetes    | :material-battery-60: Experienced (熟悉) |
-    | ELK, Grafana, Prometheus    | :material-battery-60: Experienced (熟悉) |
-    | Linux    | :material-battery-60: Experienced (熟悉) |
-    | NoSQL (Redis)    | :material-battery-60: Experienced (熟悉) |
-    | RDBMS (MySQL, PostgreSQL)    | :material-battery-60: Experienced (熟悉) |
-    | Kafka  | :material-battery-50: Experienced (有经验) |
+    | Skills (技能)                        | Familarity (熟练度)                   |
+    | :---------------------------------: | -----------------------------------: |
+    | Data Structure and Algorithms       | Skillful (熟悉)                       |
+    | Java                                | Advanaced (精通)                      |
+    | Spring Framework (Spring Boot, Spring Cloud)      | Skillful (熟练应用)      |
+    | Kubernetes                          | Experienced (熟悉)                    |
+    | ELK, Grafana, Prometheus            | Experienced (熟悉)                    |
+    | Linux                               | Experienced (熟悉)                    |
+    | NoSQL (Redis)                       | Experienced (熟悉)                    |
+    | RDBMS (MySQL, PostgreSQL)           | Experienced (熟悉)                    |
+    | Kafka                               | Experienced (经验)                    |
 
 === "Languages"
 
     * **English**: Business Level
-        * TOEIC 810
+        * ==TOEIC 810==
 
     * **Chinese**: Native Speaker
 
@@ -48,14 +48,14 @@ Position (岗位): Software Engineer
 
 **Rakuten Group, Inc.** - **Applications Engineer** <span style="float: right">2021/04/01 ~ Present</span>
 
-1. Worked as app lead for Rakuten Fashion and Rakuten NetSuper, major engineer for Rakuten Ichiba.
+1. Worked as app lead for ==Rakuten Fashion== and ==Rakuten NetSuper==, major engineer for Rakuten Ichiba.
 2. Collaborated with people across multiple teams to align with group's objectives.
-3. Did troubleshooting, bug analysis by using ELK and Grafana metrics.
+3. Did troubleshooting, bug analysis by using ==ELK== and ==Prometheus(Grafana)== metrics.
 4. Be responsible for development and code review.
-5. Participated in ==Load Test== for Sprint Release and Super Sale (QPS estimation, JMX update, Data retrieval).
+5. Participated in ==Load Test== for Sprint Release and Super Sale (==QPS estimation==, ==JMX update==, Data retrieval).
 6. In charge of Rakuten Fashion and NetSuper release operations.
 
-**Tech Stack**: Spring Boot, Reactor Netty, Spring Cloud, Resillience4J, Kubernetes, Prometheus, FileBeat, Grafana, ELK
+**Tech Stack**: Spring Boot, Reactor Netty, Spring Cloud, Resillience4J, Kubernetes, Prometheus, FileBeat, Grafana, ELK, Jenkins
 
 **株式会社 C&J** - **Software Engineer** <span style="float: right">2020/01/01 ~ 2021/02/28</span>
 
