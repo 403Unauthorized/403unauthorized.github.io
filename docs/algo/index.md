@@ -1,4 +1,5 @@
 ---
+title: "Leetcode"
 icon: material/notebook
 ---
 

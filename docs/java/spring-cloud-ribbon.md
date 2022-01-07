@@ -1,3 +1,7 @@
+---
+title: "Spring Cloud Ribbon 源码解析"
+---
+
 Ribbon 是 Netflix 公司开源的一个负载均衡项目。可以在 Zuul 中使用 Ribbon 做负载均衡，也可以和 Feign 结合使用。在 Spring Cloud 开发中使用的最多的可能就是 RestTemplate 和 Ribbon。代码可能如下：
 
 ```java
@@ -27,13 +31,9 @@ public class RibbonService {
 
 RestTemplate 在 Spring 中就已经存在了，查看以上的代码可以发现 RestTemplate Bean 上有一个 @LoadBalanced 注解，这个注解标记在 RestTemplate 上，让负载均衡客户端 LoadBalancerClient 来配置它。
 
-
-
 ## 负载均衡初始化
 
 spring-cloud-commons 包中定义了 **LoadBalancerClient** 接口，它是 Ribbon 中一个非常重要的组件。继承结构如下：
-
-
 
 ![LoadBalancerClient 继承结构](./images/spring-cloud-ribbon/ribbon1.png)
 
