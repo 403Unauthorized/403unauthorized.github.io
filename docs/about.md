@@ -21,7 +21,7 @@ Position (岗位): Software Engineer
 
     **Email (邮箱)**: yongqi.a.lei@gmail.com / torres.lei@outlook.com
 
-## :octicons-paste: Skills - 专业技能
+## Skills - 专业技能
 
 === "Tech"
 
@@ -44,7 +44,7 @@ Position (岗位): Software Engineer
 
     * **Chinese**: Native Speaker
 
-## :octicons-organization-24: Experience
+## Experience
 
 **Rakuten Group, Inc.** - **Applications Engineer** <span style="float: right">2021/04/01 ~ Present</span>
 
