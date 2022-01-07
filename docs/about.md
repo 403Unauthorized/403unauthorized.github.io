@@ -5,21 +5,21 @@ title: "我的在线简历"
 
 Position (岗位): Software Engineer
 
-!!! info inline "Personal Information - 个人信息"
-
-    **Name (姓名)**: Yongqi Lei (雷永麒)
-
-    **Birthday (生年月)**: 1996-10
-
-    **Email (邮箱)**: yongqi.a.lei@gmail.com / torres.lei@outlook.com
-
-!!! info "Job Searching Status - 求职状态"
+!!! info inline end "Job Searching Status - 求职状态"
 
     **Location (工作地点)**: Tokyo
 
     **Expected Salary (期望薪资)**: 9M ~ (JPY)
 
     **Current Status (目前状态)**: On-job (在职)
+
+!!! info "Personal Information - 个人信息"
+
+    **Name (姓名)**: Yongqi Lei (雷永麒)
+
+    **Birthday (生年月)**: 1996-10
+
+    **Email (邮箱)**: yongqi.a.lei@gmail.com / torres.lei@outlook.com
 
 ## :octicons-paste: Skills - 专业技能
 
@@ -44,7 +44,7 @@ Position (岗位): Software Engineer
 
     * **Chinese**: Native Speaker
 
-## Experience
+## :octicons-organization-24: Experience
 
 **Rakuten Group, Inc.** - **Applications Engineer** <span style="float: right">2021/04/01 ~ Present</span>
 
