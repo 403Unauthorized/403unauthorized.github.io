@@ -2,83 +2,124 @@ pagetime:
 
 # Welcome to Eng Learning Site
 
-欢迎大家来到我的Learning Site！
+欢迎大家来到我的Learning Site！首先感谢 {++mkdocs-material++} 为我们提供这么棒的主题。
 
-## Material Color Palette 颜色主题
+我在这里贴出来我的网站这个主题的配置文件 mkdocs.yml：
 
-### Primary Color
+```yaml
+# Site Information
+site_name: <site-name>
+site_description: <site_description>
+site_author: <author_name>
+site_url: https://403unauthorized.github.io
 
-> 默认是 'indigo'
+# Repository
+repo_name: 'Programming Space'
+repo_url: https://github.com/403Unauthorized/403unauthorized.github.io
 
-点击色块可更换主题的主色
+# Copyright
+copyright: 'Copyright &copy; 2021 - 2022 Eng Learning by Torres'
 
-<div id="color-button">
-<button data-md-color-primary="red">Red</button>
-<button data-md-color-primary="pink">Pink</button>
-<button data-md-color-primary="purple">Purple</button>
-<button data-md-color-primary="deep-purple">Deep Purple</button>
-<button data-md-color-primary="indigo">Indigo</button>
-<button data-md-color-primary="blue">Blue</button>
-<button data-md-color-primary="light-blue">Light Blue</button>
-<button data-md-color-primary="cyan">Cyan</button>
-<button data-md-color-primary="teal">Teal</button>
-<button data-md-color-primary="green">Green</button>
-<button data-md-color-primary="light-green">Light Green</button>
-<button data-md-color-primary="lime">Lime</button>
-<button data-md-color-primary="yellow">Yellow</button>
-<button data-md-color-primary="amber">Amber</button>
-<button data-md-color-primary="orange">Orange</button>
-<button data-md-color-primary="deep-orange">Deep Orange</button>
-<button data-md-color-primary="brown">Brown</button>
-<button data-md-color-primary="grey">Grey</button>
-<button data-md-color-primary="blue-grey">Blue Grey</button>
-<button data-md-color-primary="white">White</button>
-</div>
+# Contents
+nav:
+  - intro: ...
 
-<script>
-  var buttons = document.querySelectorAll("button[data-md-color-primary]");
-  Array.prototype.forEach.call(buttons, function(button) {
-    button.addEventListener("click", function() {
-      document.body.dataset.mdColorPrimary = this.dataset.mdColorPrimary;
-      localStorage.setItem("data-md-color-primary",this.dataset.mdColorPrimary);
-    })
-  })
-</script>
 
-### Accent colors 辅助色
+# Plugins
+plugins:
+  - search
 
-> 默认为 `red`
+# Theme
+theme:
+  name: null
+  language: zh
+  custom_dir: 'mkdocs-material/material'
+  static_templates:
+    - 404.html
+  include_search_page: false
+  search_index_only: true
+  palette:
+    - sheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github-alt
+    logo: material/book-education-outline
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  favicon: 'favicon.ico'
 
-点击色块更换主题的辅助色
+extra:
+  disqus: <disqus-shortname>
 
-<div id="color-button">
-<button data-md-color-accent="red">Red</button>
-<button data-md-color-accent="pink">Pink</button>
-<button data-md-color-accent="purple">Purple</button>
-<button data-md-color-accent="deep-purple">Deep Purple</button>
-<button data-md-color-accent="indigo">Indigo</button>
-<button data-md-color-accent="blue">Blue</button>
-<button data-md-color-accent="light-blue">Light Blue</button>
-<button data-md-color-accent="cyan">Cyan</button>
-<button data-md-color-accent="teal">Teal</button>
-<button data-md-color-accent="green">Green</button>
-<button data-md-color-accent="light-green">Light Green</button>
-<button data-md-color-accent="lime">Lime</button>
-<button data-md-color-accent="yellow">Yellow</button>
-<button data-md-color-accent="amber">Amber</button>
-<button data-md-color-accent="orange">Orange</button>
-<button data-md-color-accent="deep-orange">Deep Orange</button>
-</div>
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true 
+```
 
-<script>
-  var buttons = document.querySelectorAll("button[data-md-color-accent]");
-  Array.prototype.forEach.call(buttons, function(button) {
-    button.addEventListener("click", function() {
-      document.body.dataset.mdColorAccent = this.dataset.mdColorAccent;
-      localStorage.setItem("data-md-color-accent",this.dataset.mdColorAccent);
-    })
-  })
-
-  // #758
-  document.getElementsByClassName('md-nav__title')[1].click()
-</script>
+如果有什么我写的不对的地方，请大家指出来并report到issues中。
