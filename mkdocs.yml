@@ -38,6 +38,8 @@ nav:
       - Daily:
         - 2022/01/04 - 913. 猫和老鼠: algo/leetcode/daily/2022-01-04.md
         - 2022/01/07 - 1614. 括号的最大嵌套深度: algo/leetcode/daily/2022-01-07.md
+    - 并查集: algo/union-find.md
+    - Manacher算法: algo/manacher-palindrome.md
 
 
 # Plugins
