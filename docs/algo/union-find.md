@@ -22,8 +22,9 @@ title: "并查集"
 
 ``` title="Union Find Pseudo Code"
 public class UF {
+    UF(int n); // 初始化n个连接点(0 ~ n-1)
     void union(int p, int q); // 添加p与q的连接
-    int find(int p); // 找到p
+    int find(int p); // 找到p的连通分量
     boolean connected(int p, int q); // 判断p与q是否连通
     int count(); //返回图中有多少个连通分量
 }
