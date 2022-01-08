@@ -1,8 +1,8 @@
 ---
-title: "并查集"
+title: "Union Find - 并查集"
 ---
 
-这篇文章主要讲讲 **Union Find[^1]** 算法， 也就是我们常说的**并查集**算法。主要用于图算法中的==动态连通性==。
+这篇文章主要讲讲 **Union Find[^1]** 算法， 也就是我们常说的**并查集**算法。主要用于图算法中的 ==动态连通性== 。
 
 ## 动态连通性
 
@@ -33,4 +33,12 @@ public class UF {
 ## 实现
 
 
+## 引用
+
+* Union Find Slides by Princeton University[^2]
+* Union Find Slides 2[^3]
+
+
 [^1]: [Princeton University - Union Find](https://algs4.cs.princeton.edu/15uf/)
+[^2]: https://www.cs.princeton.edu/courses/archive/fall06/cos226/lectures/union-find.pdf
+[^3]: http://www.sfs.uni-tuebingen.de/~dg/l1.html
