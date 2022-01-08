@@ -49,16 +49,33 @@ Position (岗位): Software Engineer
 **Rakuten Group, Inc.** - **Applications Engineer**
 <p><span style="font-weight: bold">ECMPD</span> - <span style="color: #777">2021/04/01 ~ Present</span></p>
 
-1. Worked as app lead for ==Rakuten Fashion== and ==Rakuten NetSuper==, major engineer for Rakuten Ichiba.
+1. Worked as app lead for ==Rakuten Fashion== and ==Rakuten NetSuper==, main engineer for Rakuten Ichiba.
 2. Collaborated with people across multiple teams to align with group's objectives.
 3. Did troubleshooting, bug analysis by using ==ELK== and ==Prometheus(Grafana)== metrics.
 4. Be responsible for development and code review.
 5. Participated in ==Load Test== for Sprint Release and Super Sale (==QPS estimation==, ==JMX update==, Data retrieval).
 6. In charge of Rakuten Fashion and NetSuper release operations.
 
-**Tech Stack**: Spring Boot, Reactor Netty, Spring Cloud, Resillience4J, Kubernetes, Prometheus, FileBeat, Grafana, ELK, Jenkins
+**Served for**: Rakuten Ichiba, Rakuten Fashion, Rakuten NetSuper
 
-**株式会社 C&J** - **Software Engineer** <span style="float: right">2020/01/01 ~ 2021/02/28</span>
+**Tech Stack**: BFF Architecture, Spring Boot, Reactor Netty, Spring Cloud, Resillience4J, Kubernetes, Prometheus, FileBeat, Grafana, ELK, Jenkins
+
+**株式会社 C&J** - **Software Engineer**
+<p><span>株式会社東亜産業</span> - <span style="color: #777">2020/11/01 ~ 2021/02/28</span></p>
+
+1. Worked as main engineer for TOA online store, both on Frontend Server and Admin Server.
+2. Developed RESTFul APIs 
+
+
+<p><span>株式会社インタートレード</span> - <span style="color: #777">2020/01/01 ~ 2020/10/31</span></p>
+
+1. Built crypto currency exchange platform with Spring Boot and Spring Cloud (Microservices).
+2. Developed REST APIs of Authentication, part of Trading Functions and Account Profile.
+3. Developed and maintained real-time application using Kafka Streams.
+4. Implemented websocket application to fetch latest price data using other platforms' Open API.
+5. Participated in release operation and automated test using AWS EC2 with docker and Gitlab CI pipeline.
+
+**Tech Stack**: Spring Boot, Spring Cloud, Kafka Stream, Apache Avro, Spring RSocket, AWS, Gitlab CI/CD
 
 ## Education
 
