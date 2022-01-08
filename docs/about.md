@@ -3,7 +3,7 @@ disqus: ""
 title: "我的在线简历"
 ---
 
-Position (岗位): Software Engineer
+Position (岗位): **Software Engineer**
 
 !!! info inline end "Job Searching Status - 求职状态"
 
@@ -47,7 +47,7 @@ Position (岗位): Software Engineer
 ## Experience
 
 **Rakuten Group, Inc.** - **Applications Engineer**
-<p><span style="font-weight: bold">ECMPD</span> - <span style="color: #777">2021/04/01 ~ Present</span></p>
+<p><span style="font-weight: bold; color: #7dc58d">Regular</span> - <span style="color: #777">2021/04/01 ~ Present</span></p>
 
 1. Worked as app lead for ==Rakuten Fashion== and ==Rakuten NetSuper==, main engineer for Rakuten Ichiba.
 2. Collaborated with people across multiple teams to align with group's objectives.
@@ -61,13 +61,13 @@ Position (岗位): Software Engineer
 **Tech Stack**: BFF Architecture, Spring Boot, Reactor Netty, Spring Cloud, Resillience4J, Kubernetes, Prometheus, FileBeat, Grafana, ELK, Jenkins
 
 **株式会社 C&J** - **Software Engineer**
-<p><span>株式会社東亜産業</span> - <span style="color: #777">2020/11/01 ~ 2021/02/28</span></p>
+<p><span style="font-weight: bold; color: #f6903a">Contract</span> - 株式会社東亜産業 - <span style="color: #777">2020/11/01 ~ 2021/02/28</span></p>
 
 1. Worked as main engineer for TOA online store, both on Frontend Server and Admin Server.
 2. Developed RESTFul APIs 
 
 
-<p><span>株式会社インタートレード</span> - <span style="color: #777">2020/01/01 ~ 2020/10/31</span></p>
+<p><span style="font-weight: bold; color: #f6903a">Contract</span> - 株式会社インタートレード - <span style="color: #777">2020/01/01 ~ 2020/10/31</span></p>
 
 1. Built crypto currency exchange platform with Spring Boot and Spring Cloud (Microservices).
 2. Developed REST APIs of Authentication, part of Trading Functions and Account Profile.
