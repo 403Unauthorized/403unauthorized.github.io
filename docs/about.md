@@ -46,7 +46,8 @@ Position (岗位): **Software Engineer**
 
 ## Experience
 
-**Rakuten Group, Inc.** - **Applications Engineer**
+### Rakuten Group, Inc.
+
 <p><span style="font-weight: bold; color: #7dc58d">Regular</span> - <span style="color: #777">2021/04/01 ~ Present</span></p>
 
 1. Worked as app lead for ==Rakuten Fashion== and ==Rakuten NetSuper==, main engineer for Rakuten Ichiba.
@@ -60,12 +61,22 @@ Position (岗位): **Software Engineer**
 
 **Tech Stack**: BFF Architecture, Spring Boot, Reactor Netty, Spring Cloud, Resillience4J, Kubernetes, Prometheus, FileBeat, Grafana, ELK, Jenkins
 
-**株式会社 C&J** - **Software Engineer**
+### 株式会社 C & J
+
+!!! note
+
+    Title: **Software Engineer**
+
+    Total Period: 2020/01/01 ~ 2021/02/28
+
 <p><span style="font-weight: bold; color: #f6903a">Contract</span> - 株式会社東亜産業 - <span style="color: #777">2020/11/01 ~ 2021/02/28</span></p>
 
-1. Worked as main engineer for TOA online store, both on Frontend Server and Admin Server.
-2. Developed RESTFul APIs 
+1. Developed RESTful APIs TOA Online Shopping Site. 
+2. Developed both frontend page and server functions for cart module.
+3. Participated in API design and Documentation tasks.
+4. Designed and implemented Exception Handling module.
 
+**Tech Stack**: Spring Boot, Kafka, Redis, AWS, Github Actions...
 
 <p><span style="font-weight: bold; color: #f6903a">Contract</span> - 株式会社インタートレード - <span style="color: #777">2020/01/01 ~ 2020/10/31</span></p>
 
@@ -76,6 +87,18 @@ Position (岗位): **Software Engineer**
 5. Participated in release operation and automated test using AWS EC2 with docker and Gitlab CI pipeline.
 
 **Tech Stack**: Spring Boot, Spring Cloud, Kafka Stream, Apache Avro, Spring RSocket, AWS, Gitlab CI/CD
+
+### 株式会社アダムソフト - AdamSoft
+
+!!! note
+
+    Title: **Software Engineer**
+
+<p><span style="font-weight: bold; color: #f6903a">Contract</span> - EXA Corporation - <span style="color: #777">2019/01/01 ~ 2019/12/31</span></p>
+
+1. Maintained and enhanced internal system which manages employee's profile, salary, residence status...
+2. Developed and tested server-side function using Java swing
+3. Wrote Document such as Test plan and Q&A excel.
 
 ## Education
 
