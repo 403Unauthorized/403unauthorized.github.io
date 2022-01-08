@@ -45,11 +45,6 @@ nav:
         - 8. String to Integer (atoi): algo/leetcode/string/string-to-integer-atoi.md
     - 并查集: algo/union-find.md
     - Manacher算法: algo/manacher-palindrome.md
-    - Algorithms Part 1:
-      - Introduction: algo/coursera/algorithms-part1/index.md
-      - Week 1: algo/coursera/algorithms-part1/week1.md
-      - Week 2: algo/coursera/algorithms-part1/week2.md
-      - Week 3: algo/coursera/algorithms-part1/week3.md
       
 
 
