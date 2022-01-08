@@ -47,7 +47,7 @@ Position (岗位): Software Engineer
 ## Experience
 
 **Rakuten Group, Inc.** - **Applications Engineer**
-<p><span style="font-weight: bold">ECMPD</span> - <span style="color: #CCC">2021/04/01 ~ Present</span></p>
+<p><span style="font-weight: bold">ECMPD</span> - <span style="color: #777">2021/04/01 ~ Present</span></p>
 
 1. Worked as app lead for ==Rakuten Fashion== and ==Rakuten NetSuper==, major engineer for Rakuten Ichiba.
 2. Collaborated with people across multiple teams to align with group's objectives.
