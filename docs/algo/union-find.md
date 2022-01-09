@@ -30,15 +30,73 @@ public class UF {
 }
 ```
 
-## 实现
+## 慢查询实现
 
+### 思路
+
+如果想让两个节点连通，则可以使用树形结构来实现，在同一棵树上的节点都属于连通的节点，而这一棵树则是连通分量。如果想更加直观的观察到为什么使用树形结构比较方便，可以阅读一下普林斯顿大学的 **cos226**[^2] 中讲 Union Find 的 slides.
+
+所以这意味着如果某两个节点相连，则让其中任一一个节点的根节点指向另一个节点的根节点上。
+
+### 代码
+
+```java
+public class UF {
+    int[] parent;
+    int count;
+
+    public UF(int n) {
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+        }
+        count = n; // 初始化时有n个连通分量，因为节点互相不相连
+    }
+
+    public void union(int p, int q) {
+        int rootP = find(p);
+        int rootQ = find(q);
+        if (rootP == rootQ) {
+            // 说明两个节点已经相连，直接跳过此操作
+            return;
+        }
+        parent[rootP] = rootQ; // 等价于 parent[rootQ] = rootP
+        count--; // 因为两个连通分量合并了
+    }
+
+    private int find(int x) {
+        while (parent[x] != x) {
+            x = parent[x];
+        }
+        return x;
+    }
+
+    public int count() {
+        return count;
+    }
+
+    public boolean connected(int p. int q) {
+        int rootP = find(p);
+        int rootQ = find(q);
+        return rootP == rootQ; // 两个节点的根节点相同则在一个连通分量中，这两个节点相连
+    }
+}
+```
+
+可以参照下面的流程图：
+
+![Union Find](./images/union_find.jpg)
+
+### 算法分析
+
+那么上面实现的这个算法的复杂度是多少呢？从代码上可以看到：`connected`和`union`的复杂度都和`find`函数有关，而`find`函数则是需要从该节点向上寻找到这个节点的根节点，虽然它是树形结构，但我们不能单纯的说它的时间复杂度是`logN`（平衡二叉树的高度），但这个可不是平衡二叉树，在极端情况下，这个树形结构可能就会退化成单链表，所以说最坏情况下的时间复杂度可能变成`N`。
+
+所以说上面这种写法，
 
 ## 引用
 
-* Union Find Slides by Princeton University[^2]
 * Union Find Slides 2[^3]
 
 
 [^1]: [Princeton University - Union Find](https://algs4.cs.princeton.edu/15uf/)
-[^2]: https://www.cs.princeton.edu/courses/archive/fall06/cos226/lectures/union-find.pdf
+[^2]: [Union Find Slides by Princeton University](https://www.cs.princeton.edu/courses/archive/fall06/cos226/lectures/union-find.pdf)
 [^3]: http://www.sfs.uni-tuebingen.de/~dg/l1.html
