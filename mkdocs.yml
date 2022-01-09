@@ -41,6 +41,8 @@ nav:
         - 2022/01/07 - 1614. 括号的最大嵌套深度: algo/leetcode/daily/2022-01-07.md
         - 2022/01/07 - 382. Linked List Random Node: algo/leetcode/daily/2022-01-07-en.md
         - 2022/01/08 - 89. 格雷编码: algo/leetcode/daily/2022-01-08.md
+        - 2022/01/09 - 1041. Robot Bounded In Circle: algo/leetcode/daily/2022-01-09-en.md
+        - 2022/01/09 - 1629. 按键持续时间最长的键: algo/leetcode/daily/2022-01-09.md
       - String:
         - 8. String to Integer (atoi): algo/leetcode/string/string-to-integer-atoi.md
     - 并查集: algo/union-find.md
