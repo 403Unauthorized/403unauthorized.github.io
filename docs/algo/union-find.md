@@ -104,7 +104,7 @@ public class UF {
 
 ### 代码实现
 
-```java hl_lines="4 10 21-23"
+```java hl_lines="4 10 21 22 23"
 public class UF {
     int[] parent;
     int count;
@@ -159,12 +159,29 @@ public class UF {
 | quick-find 算法| N | N | 1 |
 | quick-union 算法| N | 树的高度，最坏为 N | 树的高度，最坏为 N |
 | 加权 quick-union 算法| N | lgN | lgN |
+| 加权 quick-union 算法| N | 非常接近但没有到达1 |
 
 ### 思考
 
 这样看来，加权 Quick Union 算法的时间复杂度为`lgN`，看起来是比较理想的状态了，那有没有比这个更好的呢？有没有能达到常数级别的算法呢？
 
 ## 路径压缩的加权 Quick Union 算法
+
+路径压缩就是将一个连通分量中的所有节点，都**直接**连接到根节点上，使树的高度不超过2
+
+```java title="changes in find()"
+private int find(int x) {
+    List<Integer> path = new ArrayList<>();
+    while (parent[x] != x) {
+        path.add(x);
+        x = parent[x];
+    }
+    for (int node : path) {
+        parent[node] = x;
+    }
+    return x;
+}
+```
 
 ## 引用
 
