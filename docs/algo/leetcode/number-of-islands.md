@@ -2,6 +2,9 @@
 title: "200. 岛屿数量"
 tags:
   - Medium
+  - BFS
+  - DFS
+  - Union Find
 ---
 
 [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) - <span style="color: #f7a43e; font-weight: bold">Medium</span>
