@@ -28,23 +28,23 @@ tags:
 
 === "Integer排序实现"
 
-``` java title="选择排序"
-public void selectionSort(int[] a) {
-    int n = a.length;
-    for (int i = 0; i < n; i++) {
-        int min = i;
-        for (int j = i + 1; j < n; j++) {
-            if (a[j] < a[min]) min = j;
+    ``` java title="选择排序"
+    public void selectionSort(int[] a) {
+        int n = a.length;
+        for (int i = 0; i < n; i++) {
+            int min = i;
+            for (int j = i + 1; j < n; j++) {
+                if (a[j] < a[min]) min = j;
+            }
+            exchange(a, i, min);
         }
-        exchange(a, i, min);
     }
-}
 
-private void exchange(int[] a, int i, int j) {
-    int swap = a[i];
-    a[i] = a[j];
-    a[j] = swap;
-}
-```
+    private void exchange(int[] a, int i, int j) {
+        int swap = a[i];
+        a[i] = a[j];
+        a[j] = swap;
+    }
+    ```
 
 ## 算法分析
