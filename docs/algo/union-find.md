@@ -45,7 +45,7 @@ public class UF {
 ### 代码
 
 ```java
-public class UF {
+public class QuickUnionUF {
     int[] parent;
     int count;
 
@@ -105,7 +105,7 @@ public class UF {
 ### 代码实现
 
 ```java hl_lines="4 10 21 22 23"
-public class UF {
+public class WeightedQuickUnionUF {
     int[] parent;
     int count;
     int[] size;
@@ -182,6 +182,12 @@ private int find(int x) {
     return x;
 }
 ```
+
+这样实现的话，理想情况下的时间复杂度是`1`，不过几乎不可能达到，只能是接近1的时间复杂度。
+
+## 提高
+
+* 使用树结构（TreeNode）来实现并查集
 
 ## 引用
 
