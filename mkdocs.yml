@@ -47,6 +47,9 @@ nav:
         - 8. String to Integer (atoi): algo/leetcode/string/string-to-integer-atoi.md
     - 并查集: algo/union-find.md
     - Manacher算法: algo/manacher-palindrome.md
+    - 排序算法:
+      - 选择排序: algo/selection-sort.md
+      - 插入排序: algo/insertion-sort.md
       
 
 

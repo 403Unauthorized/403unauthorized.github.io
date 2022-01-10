@@ -104,7 +104,7 @@ public class QuickUnionUF {
 
 ### 代码实现
 
-```java hl_lines="4 10 21 22 23"
+``` java hl_lines="4 10 21 22 23"
 public class WeightedQuickUnionUF {
     int[] parent;
     int count;
