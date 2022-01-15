@@ -60,6 +60,7 @@ nav:
     - 排序算法:
       - 选择排序: algo/selection-sort.md
       - 插入排序: algo/insertion-sort.md
+      - 希尔排序: algo/shell-sort.md
     - Rabin Karp Algorithm - 字符串哈希算法: algo/rabin-karp-algo.md
   - 大数据:
     - 简介: bigdata/index.md
