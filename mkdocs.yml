@@ -47,6 +47,10 @@ nav:
         - 2022/01/10 - 306. 累加数: algo/leetcode/daily/2022-01-10.md
         - 2022/01/11 - 1036. 逃离大迷宫: algo/leetcode/daily/2022-01-11.md
         - 2022/01/12 - 701. Insert into a Binary Search Tree: algo/leetcode/daily/2022-01-12-en.md
+        - 2022/01/13 - 747. 至少是其他数字两倍的最大数: algo/leetcode/daily/2022-01-13.md
+        - 2022/01/14 - 373. 查找和最小的 K 对数字: algo/leetcode/daily/2022-01-14.md
+        - 2022/01/15 - 1345. Jump Game IV: algo/leetcode/daily/2022-01-15-en.md
+        - 2022/01/15 - 1716. 计算力扣银行的钱: algo/leetcode/daily/2022-01-15.md
       - String:
         - 8. String to Integer (atoi): algo/leetcode/string/string-to-integer-atoi.md
       - 200. 岛屿数量: algo/leetcode/number-of-islands.md
