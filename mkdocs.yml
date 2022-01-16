@@ -26,6 +26,8 @@ nav:
       - JVM 内存区域学习笔记: java/jvm-breakdown.md
     - Spring:
       - Spring Cloud Ribbon: java/spring-cloud-ribbon.md
+    - 面试:
+      - 字节跳动 Java 面试题: java/interview/bytedance-interview.md
   - 云原生:
     - 云原生简介: cloud/index.md
     - Golang:
