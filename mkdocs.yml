@@ -34,7 +34,7 @@ nav:
       - Kubernetes on CentOS: cloud/kubernetes-on-centos.md
       - 在CentOS上安装K8S: cloud/kubernetes-installation-on-centos.md
   - 算法:
-    - 算法系列: algo/index.md
+    - Leetcode刷题记录: algo/leetcode.md
     - LeetCode:
       - Daily:
         - 2022/01/04 - 913. 猫和老鼠: algo/leetcode/daily/2022-01-04.md
@@ -62,6 +62,7 @@ nav:
       - 选择排序: algo/selection-sort.md
       - 插入排序: algo/insertion-sort.md
       - 希尔排序: algo/shell-sort.md
+      - 归并排序: algo/merge-sort.md
     - Rabin Karp Algorithm - 字符串哈希算法: algo/rabin-karp-algo.md
   - 大数据:
     - 简介: bigdata/index.md
