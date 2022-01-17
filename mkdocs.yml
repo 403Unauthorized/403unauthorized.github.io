@@ -69,6 +69,7 @@ nav:
     - Rabin Karp Algorithm - 字符串哈希算法: algo/rabin-karp-algo.md
   - 大数据:
     - 简介: bigdata/index.md
+    - Scala 基础知识学习笔记: bigdata/scala-basics.md
       
 
 
