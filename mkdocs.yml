@@ -60,6 +60,7 @@ nav:
       - 200. 岛屿数量: algo/leetcode/number-of-islands.md
       - 958. Check Completeness of a Binary Tree: algo/leetcode/check-completeness-of-a-binary-tree.md
       - 48. Rotate Image: algo/leetcode/rotate-image-48.md
+      - 142. Linked List Cycle II: algo/leetcode/142-linked-list-cycle-ii.md
     - 并查集: algo/union-find.md
     - Manacher算法: algo/manacher-palindrome.md
     - 排序算法:
