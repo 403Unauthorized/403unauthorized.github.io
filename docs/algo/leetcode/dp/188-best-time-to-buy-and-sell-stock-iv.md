@@ -29,28 +29,57 @@ tags:
 
 下面就来看看代码时怎么写的吧：
 
-```java
-class Solution {
-    public int maxProfit(int k, int[] prices) {
-        int n = prices.length;
-        if (k == 0 || n == 0) return 0;
-        int[] buy = new int[k];
-        int[] sell = new int[k];
-        for (int i = 0; i < k; i++) {
-            buy[i] = -prices[0];
-        }
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < k; j++) {
-                if (j == 0) {
-                    buy[j] = Math.max(buy[j], -prices[i]);
-                    sell[j] = Math.max(sell[j], buy[j] + prices[i]);
-                } else {
-                    buy[j] = Math.max(buy[j], sell[j - 1] - prices[i]);
-                    sell[j] = Math.max(sell[j], buy[j] + prices[i]);
+=== "Java"
+
+    ```java
+    class Solution {
+        public int maxProfit(int k, int[] prices) {
+            int n = prices.length;
+            if (k == 0 || n == 0) return 0;
+            int[] buy = new int[k];
+            int[] sell = new int[k];
+            for (int i = 0; i < k; i++) {
+                buy[i] = -prices[0];
+            }
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < k; j++) {
+                    if (j == 0) {
+                        buy[j] = Math.max(buy[j], -prices[i]);
+                        sell[j] = Math.max(sell[j], buy[j] + prices[i]);
+                    } else {
+                        buy[j] = Math.max(buy[j], sell[j - 1] - prices[i]);
+                        sell[j] = Math.max(sell[j], buy[j] + prices[i]);
+                    }
                 }
             }
+            return sell[k - 1];
         }
-        return sell[k - 1];
     }
-}
-```
+    ```
+
+=== "Scala"
+
+    ```scala
+    object Solution {
+        def maxProfit(k: Int, prices: Array[Int]): Int = {
+            if (k == 0 || prices.length == 0) return 0
+            var buy: Array[Int] = new Array[Int](k)
+            var sell: Array[Int] = new Array[Int](k)
+            for (i <- (0 to k - 1)) {
+                buy(i) = -prices(0)
+            }
+            for (p <- prices) {
+                for (i <- (0 to k - 1)) {
+                    if (i == 0) {
+                        buy(i) = math.max(buy(i), -p)
+                        sell(i) = math.max(sell(i), buy(i) + p)
+                    } else {
+                        buy(i) = math.max(buy(i), sell(i - 1) - p)
+                        sell(i) = math.max(sell(i), buy(i) + p)
+                    }
+                }
+            }
+            return sell(k - 1)
+        }
+    }
+    ```
