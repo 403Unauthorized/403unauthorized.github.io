@@ -35,6 +35,7 @@ nav:
     - Kubernetes:
       - Kubernetes on CentOS: cloud/kubernetes-on-centos.md
       - 在CentOS上安装K8S: cloud/kubernetes-installation-on-centos.md
+      - Kubernetes中Java应用相关操作: cloud/kubernetes-java-commands.md
   - 算法:
     - Leetcode刷题记录: algo/leetcode.md
     - LeetCode:
