@@ -6,7 +6,7 @@ tags:
   - String
 ---
 
-[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) - <span style="color: #f7a43e; font-weight: bold">Medium</span>
 
 ## Problem Description
 
