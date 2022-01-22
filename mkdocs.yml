@@ -66,6 +66,7 @@ nav:
         - 33. Search in Rotated Sorted Array: algo/leetcode/binary-search/33-search-in-rotated-sorted-array.md
       - 回溯系列:
         - 22. Generate Parentheses: algo/leetcode/backtrack/22-generate-parentheses.md
+        - 17. Letter Combinations of a Phone Number: algo/leetcode/backtrack/17-letter-combination-of-a-phone-number.md
       - 200. 岛屿数量: algo/leetcode/number-of-islands.md
       - 958. Check Completeness of a Binary Tree: algo/leetcode/check-completeness-of-a-binary-tree.md
       - 48. Rotate Image: algo/leetcode/rotate-image-48.md
