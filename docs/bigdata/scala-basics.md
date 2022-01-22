@@ -505,3 +505,60 @@ def calculate(f: (Int, Int) => Int, i: Int, j: Int): Int = f(i, j)
 // sum is a function declared above
 println(calculate(sum, 4, 7)) // print 11
 ```
+
+## Object
+
+`object` in Scala creates a *singleton* object, which means, `object` defines a class that has exactly one instance.
+
+**Common Usage**:
+
+* Used to create a collection of utility methods.
+
+```s
+object StringUtils:
+  def isNullOrEmpty(str: String): Boolean => str == null || s.trim.isEmpty
+
+val res1 = StringUtils.isNullOrEmpty("   ") // true
+val res2 = StringUtils.isNullOrEmptu("aa") // false
+```
+
+* Companion object.
+
+```scala
+import scala.math.*
+class Circle(radius: Double) {
+
+  def area: Double = calcaulateSize(this.radius)
+}
+
+object Circle {
+  private def calculateSize(radius: Double): Double =>
+    Pi * pow(radius, 2.0)
+}
+
+@main def main(): Unit = {
+  val circle = new Circle(4.0D)
+  println(circle.area) // 50.26548245743669
+}
+```
+`object Circle` is companion object, and `class Circle` is companion class.
+
+
+* Implement traits to create modules.
+
+```scala
+trait AddService:
+  def add(a: Int, b: Int): Int = a + b
+
+trait MultiplyService:
+  def multiply(a: Int, b: Int): Int = a * b
+
+object MathService extends AddService, MultiplyService
+
+@main def main(): Unit = {
+  println(MathService.add(4, 5))
+  println(MathService.multiply(5, 6))
+}
+```
+
+

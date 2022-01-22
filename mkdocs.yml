@@ -60,8 +60,12 @@ nav:
         - 2022/01/20 - 134. Gas Station: algo/leetcode/daily/2022-01-21.md
       - 动态规划:
         - 188. Best Time to Buy and Sell Stock IV: algo/leetcode/dp/188-best-time-to-buy-and-sell-stock-iv.md
-      - String:
+      - 字符串系列:
         - 8. String to Integer (atoi): algo/leetcode/string/string-to-integer-atoi.md
+      - 二分查找系列:
+        - 33. Search in Rotated Sorted Array: algo/leetcode/binary-search/33-search-in-rotated-sorted-array.md
+      - 回溯系列:
+        - 22. Generate Parentheses: algo/leetcode/backtrack/22-generate-parentheses.md
       - 200. 岛屿数量: algo/leetcode/number-of-islands.md
       - 958. Check Completeness of a Binary Tree: algo/leetcode/check-completeness-of-a-binary-tree.md
       - 48. Rotate Image: algo/leetcode/rotate-image-48.md
