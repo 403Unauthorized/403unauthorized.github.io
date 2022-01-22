@@ -65,34 +65,34 @@ tags:
 
 === "Scala"
 
-```scala
-import scala.collection.mutable.ListBuffer
-object Solution {
-  def generateParenthesis(n: Int): List[String] = {
-    val ans = new ListBuffer[String]
-    def backtrack(left: Int, right: Int, str: StringBuilder): Unit = {
-      if (str.length == 2 * n) {
-        ans.addOne(str.toString())
-        return
-      }
-      for (c <- Array('(', ')')) {
-        if (c == '(') {
-          if (left < n) {
-            str.append(c)
-            backtrack(left + 1, right, str)
-            str.deleteCharAt(str.length() - 1)
-          }
-        } else {
-          if (right < left) {
-            str.append(c)
-            backtrack(left, right + 1, str)
-            str.deleteCharAt(str.length() - 1)
-          }
+    ```scala
+    import scala.collection.mutable.ListBuffer
+    object Solution {
+    def generateParenthesis(n: Int): List[String] = {
+        val ans = new ListBuffer[String]
+        def backtrack(left: Int, right: Int, str: StringBuilder): Unit = {
+        if (str.length == 2 * n) {
+            ans.addOne(str.toString())
+            return
         }
-      }
+        for (c <- Array('(', ')')) {
+            if (c == '(') {
+            if (left < n) {
+                str.append(c)
+                backtrack(left + 1, right, str)
+                str.deleteCharAt(str.length() - 1)
+            }
+            } else {
+            if (right < left) {
+                str.append(c)
+                backtrack(left, right + 1, str)
+                str.deleteCharAt(str.length() - 1)
+            }
+            }
+        }
+        }
+        backtrack(1, 0, new StringBuilder().append("("))
+        ans.toList
     }
-    backtrack(1, 0, new StringBuilder().append("("))
-    ans.toList
-  }
-}
-```
+    }
+    ```
