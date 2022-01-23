@@ -62,6 +62,12 @@ nav:
         - 188. Best Time to Buy and Sell Stock IV: algo/leetcode/dp/188-best-time-to-buy-and-sell-stock-iv.md
       - 字符串系列:
         - 8. String to Integer (atoi): algo/leetcode/string/string-to-integer-atoi.md
+      - 树系列:
+        - 98. Validate Binary Search Tree: algo/leetcode/tree/98-validate-binary-search-tree.md
+        - 102. Binary Tree Level Order Traversal: algo/leetcode/tree/102-binary-tree-level-order-traversal.md
+        - 103. Binary Tree Zigzag Level Order Traversal: algo/leetcode/tree/103-binary-tree-zigzag-level-order-traversal.md
+        - 107. Binary Tree Level Order Traversal II: algo/leetcode/tree/107-binary-tree-level-order-traversal-ii.md
+        - 701. Insert into a Binary Search Tree: algo/leetcode/tree/701-insert-into-a-binary-search-tree.md
       - 二分查找系列:
         - 33. Search in Rotated Sorted Array: algo/leetcode/binary-search/33-search-in-rotated-sorted-array.md
       - 回溯系列:
