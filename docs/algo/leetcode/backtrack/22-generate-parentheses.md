@@ -14,7 +14,9 @@ tags:
     Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
     **Example 1**:
+    
     > Input: n = 3
+    >
     > Output: ["((()))","(()())","(())()","()(())","()()()"]
 
 这道题就是一道很经典的回溯类型的题，应用回溯解法模版即可。

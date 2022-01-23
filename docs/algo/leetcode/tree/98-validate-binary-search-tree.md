@@ -24,6 +24,7 @@ tags:
     ![Ex1](./images/98-ex1.jpeg)
 
     > **Input**: root = [2,1,3]
+    >
     > **Output**: true
 
 这道题是要我们验证一棵树是否为[二叉搜索树](https://en.wikipedia.org/wiki/Binary_search_tree)。请查看二叉搜索树的第一，然后很快就能想出来怎么才能验证一棵树是否为二叉搜索树。
