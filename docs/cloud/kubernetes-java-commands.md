@@ -36,6 +36,9 @@ ps -ef  | grep java
 # 获取heapdump
 # jcmd <pid> GC.heap_dump -all <file name>
 jcm 8 GC.heap_dump -all heap.hprof
+
+# Compress the heapdump file otherewise heapdump could be very large
+tar -czvf heapdump.tar.gz heap.hprof
 ```
 
 从K8S的pod中把heapdump文件复制出来：
