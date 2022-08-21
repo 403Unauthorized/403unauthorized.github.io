@@ -29,7 +29,7 @@ title: "Online Resume"
 
 ### Morgan Stanley
 
-!!! info "Title and Period"
+!!! info "Title and Duration"
     
     **Title**: Software Engineer
 
@@ -43,7 +43,7 @@ title: "Online Resume"
 
 ### Rakuten Group
 
-!!! info "Title and Period"
+!!! info "Title and Duration"
     
     **Title**: Applications Engineer
 
