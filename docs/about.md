@@ -19,7 +19,7 @@ Position (岗位): **Software Engineer**
 
     **Location (工作地点)**: Tokyo
 
-    **Expected Salary (期望薪资)**: 9M ~ (JPY)
+    **Expected Salary (期望薪资)**: 15M ~ (JPY)
 
     **Current Status (目前状态)**: On-job (在职)
 
@@ -29,7 +29,7 @@ Position (岗位): **Software Engineer**
 
     **Birthday (生年月)**: 1996-10
 
-    **Email (邮箱)**: yongqi.a.lei@gmail.com / torres.lei@outlook.com
+    **Email (邮箱)**: yongqi.a.lei@gmail.com / yongqi.lei@outlook.com
 
 ## Skills - 专业技能
 
