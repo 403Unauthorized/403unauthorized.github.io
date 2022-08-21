@@ -3,7 +3,7 @@ disqus: ""
 title: "Online Resume"
 ---
 
-# Self Introduction
+## Self Introduction
 
 === "Personal Info"
 
@@ -25,9 +25,9 @@ title: "Online Resume"
 
     I'm working as a software engineer in Morgan Stanley, mainly doing data process and some of infrastructure work. Advanced level of Java, adept in reactive programming, troubleshooting and problem solving. Experience with **Docker** and **Kubernetes** operations and CI/CD pipelines such as Jenkins. Passionate about learning new thing and new programming languages and willing to learn more about cutting-edge technologies. I'm able to effectively self-manage during independent projects as well as collaborate as part of a productive team.
 
-# Experience
+## Experience
 
-## Morgan Stanley
+### Morgan Stanley
 
 !!! info "Title and Period"
     
@@ -41,7 +41,7 @@ title: "Online Resume"
 2. Supporting production issue and monitoring.
 3. ...
 
-## Rakuten Group
+### Rakuten Group
 
 !!! info "Title and Period"
     
@@ -57,7 +57,7 @@ title: "Online Resume"
 4. Participated in Load Test for Sprint Release and Super Sale (QPS estimation, JMX update, Data retrieval, Monitoring).
 5. Responsible for release operations for Rakuten Fashion and Rakuten NetSuper using Jenkins and Kubernetes.
 
-# Education
+## Education
 
 !!! info "Education"
 
@@ -67,7 +67,7 @@ title: "Online Resume"
 
     **Degree**: Bachelor
 
-# Skills
+## Skills
 
 * **Programming Skills**: Java, Scala, Python, Go
 * **Language**: Chinese Mandarin(Native), English(Business)
