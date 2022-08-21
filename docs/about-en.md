@@ -31,11 +31,11 @@ title: "Online Resume"
 
 !!! info "Title and Period"
     
-    Title: Software Engineer
+    **Title**: Software Engineer
 
-    Period: 2022/04/26 ~ Present
+    **Duration**: 2022/04/26 ~ Present
 
-    Employee Type: Permanent
+    **Employee** Type: <span style="font-weight: bold; color: #7dc58d">Regular</span>
 
 1. Refactoring existing project with new big data framework in the team.
 2. Supporting production issue and monitoring.
@@ -45,11 +45,11 @@ title: "Online Resume"
 
 !!! info "Title and Period"
     
-    Title: Applications Engineer
+    **Title**: Applications Engineer
 
-    Period: 2021/04/01 ~ 2022/04/25
+    **Duration**: 2021/04/01 ~ 2022/04/25
 
-    Employee Type: Permanent
+    **Employee** Type: <span style="font-weight: bold; color: #7dc58d">Regular</span>
 
 1. Collaborated with people across multiple teams aligns with the group's objectives.
 2. Led development and code review for ==Rakuten Fashion==, ==NetSuper==, main engineer for ==Rakuten Ichiba==.
