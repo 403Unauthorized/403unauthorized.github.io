@@ -14,11 +14,11 @@ disqus: ""
 site_name: <site-name>
 site_description: <site_description>
 site_author: <author_name>
-site_url: https://403unauthorized.github.io
+site_url: https://yongqilei.github.io
 
 # Repository
 repo_name: 'Programming Space'
-repo_url: https://github.com/403Unauthorized/403unauthorized.github.io
+repo_url: https://github.com/yongqilei/yongqilei.github.io
 
 # Copyright
 copyright: 'Copyright &copy; 2021 - 2022 Eng Learning by Torres'

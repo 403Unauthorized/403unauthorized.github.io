@@ -11,7 +11,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/403Unauthorized/403unauthorized.github.io.git"
+      "url": "git+https://github.com/yongqilei/yongqilei.github.io.git"
     },
     "keywords": [
       "Engineering",
@@ -21,9 +21,9 @@
     "author": "Torres Lei",
     "license": "UNLICENSED",
     "bugs": {
-      "url": "https://github.com/403Unauthorized/403unauthorized.github.io/issues"
+      "url": "https://github.com/yongqilei/yongqilei.github.io/issues"
     },
-    "homepage": "https://github.com/403Unauthorized/403unauthorized.github.io#readme",
+    "homepage": "https://github.com/yongqilei/yongqilei.github.io#readme",
     "dependencies": {
       "cssnano": "^4.1.10",
       "gulp": "^4.0.0",

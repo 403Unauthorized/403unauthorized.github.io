@@ -7,7 +7,7 @@ tags:
 
 [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) - <span style="color: #dd544b; font-weight: bold">Hard</span>
 
-这道题虽然说是一道 Hard 题，但是思想和它的前置题是一样的。详细可以参考：[123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/): [Solution](https://github.com/403Unauthorized/leetcode/blob/master/java/sell-stock-iii.java)。
+这道题虽然说是一道 Hard 题，但是思想和它的前置题是一样的。详细可以参考：[123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/): [Solution](https://github.com/yongqilei/leetcode/blob/master/java/sell-stock-iii.java)。
 
 ## Description
 

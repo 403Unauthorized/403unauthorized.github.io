@@ -2,11 +2,11 @@
 site_name: Programming Tech Sharing
 site_description: Programming Tech Sharing 是我用来整合知识的一个站点，主要面向编程知识。
 site_author: Torres Lei
-site_url: https://403unauthorized.github.io
+site_url: https://yongqilei.github.io
 
 # Repository
 repo_name: 'Programming Space'
-repo_url: https://github.com/403Unauthorized/403unauthorized.github.io
+repo_url: https://github.com/yongqilei/yongqilei.github.io
 
 # Copyright
 copyright: 'Copyright &copy; 2021 - 2022 Eng Learning by Torres'
