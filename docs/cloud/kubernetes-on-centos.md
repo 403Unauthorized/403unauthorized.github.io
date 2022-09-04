@@ -1,3 +1,8 @@
+---
+tags:
+  - kubernetes
+---
+
 ## 前提条件
 
 - 一个 Linux 主机。Kubernetes 项目为基于 Debian 和 Red Hat 的 Linux 发行版提供了通用的说明。

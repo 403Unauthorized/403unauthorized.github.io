@@ -1,8 +1,7 @@
 ---
 title: "Shell Sort"
 tags:
-  - Sort
-  - Shell Sort
+  - sort
 ---
 
 ## Concept

@@ -1,5 +1,7 @@
 ---
 title: "JVM Inteview"
+tags:
+  - jvm
 ---
 
 ## Purpose

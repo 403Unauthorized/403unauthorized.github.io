@@ -1,8 +1,7 @@
 ---
 title: "归并排序"
 tags:
-  - Sort
-  - Merge Sort
+  - sort
 ---
 
 ## 概念

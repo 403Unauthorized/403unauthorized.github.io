@@ -1,8 +1,8 @@
 ---
 title: "Kubernetes 命令以及容器中JVM操作"
 tags:
-  - Kubernetes
-  - JVM
+  - kubernetes
+  - jvm
 ---
 
 ## Basic Commands

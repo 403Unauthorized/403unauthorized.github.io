@@ -1,3 +1,8 @@
+---
+tags:
+  - kubernetes
+---
+
 ## Prerequisite
 
 1. CentOS 7

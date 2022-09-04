@@ -1,5 +1,9 @@
 ---
 title: "Spring Cloud Ribbon 源码解析"
+tags:
+  - spring cloud
+  - ribbon
+  - deprecated
 ---
 
 Ribbon 是 Netflix 公司开源的一个负载均衡项目。可以在 Zuul 中使用 Ribbon 做负载均衡，也可以和 Feign 结合使用。在 Spring Cloud 开发中使用的最多的可能就是 RestTemplate 和 Ribbon。代码可能如下：

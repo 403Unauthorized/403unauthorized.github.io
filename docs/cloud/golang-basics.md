@@ -1,3 +1,8 @@
+---
+tags:
+  - golang
+---
+
 ## Hello Golang
 
 Golang 是由 Google 开发并开源出来的一种编程语言，Kubernetes 就是由 Go 主要开发的，由此可见 Go 在云原生开发中的重要地位。在这里我们主要介绍 Golang 的基础知识，例如各种语法，数据结构，以及一些 Tips。

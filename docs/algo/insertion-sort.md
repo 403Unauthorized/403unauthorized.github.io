@@ -1,7 +1,7 @@
 ---
 title: "插入排序"
 tags:
-  - Sort
+  - sort
 ---
 
 ## Concept

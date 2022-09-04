@@ -1,7 +1,7 @@
 ---
 title: "选择排序"
 tags:
-  - Sort
+  - sort
 ---
 
 ## Concept
