@@ -98,7 +98,7 @@ nav:
 # Plugins
 plugins:
   - search
-  - tags:
+  - tags
     - tags_file: tags.md
 
 # Theme
