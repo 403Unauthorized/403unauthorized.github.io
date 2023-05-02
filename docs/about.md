@@ -5,7 +5,7 @@ title: "我的在线简历"
 
 !!! note "自我评价"
 
-    目前在 Rakuten Group 就职，是一名 Software Engineer，主要工作是针对乐天市场的服务端应用做一些Technical Enhancement以及需求开发。
+    目前在 Morgan Stanley 担任 Software Engineer，主要工作是开发金融数据ETL程序以及数据分析。
 
     熟悉Java以及Java中的数据结构相关类型使用和原理，熟悉Spring Framework，熟练使用Spring Boot和Spring Cloud开发微服务应用。了解并能熟练使用NoSQL(Redis)、MySQL、PostgreSQL。熟悉Reactive Programming，能够熟练使用Reactor Netty以及Spring Webflux。
 
@@ -58,7 +58,7 @@ Position (岗位): **Software Engineer**
 
 ### Rakuten Group, Inc.
 
-<p><span style="font-weight: bold; color: #7dc58d">Regular</span> - <span style="color: #777">2021/04/01 ~ Present</span></p>
+<p><span style="font-weight: bold; color: #7dc58d">Regular</span> - <span style="color: #777">2021/04/01 ~ 2022/04/25</span></p>
 
 1. Worked as app lead for ==Rakuten Fashion== and ==Rakuten NetSuper==, main engineer for Rakuten Ichiba.
 2. Collaborated with people across multiple teams to align with group's objectives.
